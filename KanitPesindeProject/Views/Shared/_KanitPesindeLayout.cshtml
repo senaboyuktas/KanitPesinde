@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@await Html.PartialAsync("~/Views/Shared/LayoutPartial/HeadPartial.cshtml")
+<body>
+
+    @await Html.PartialAsync("~/Views/Shared/LayoutPartial/NavbarPartial.cshtml")
+
+
+    @RenderBody()
+
+    @await Html.PartialAsync("~/Views/Shared/LayoutPartial/FooterPartial.cshtml")
+
+
+    @await Html.PartialAsync("~/Views/Shared/LayoutPartial/ScriptPartial.cshtml")
+
+
+</body>
+</html>
